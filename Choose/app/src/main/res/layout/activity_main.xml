@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Highest Number"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:editable="false"/>
+    <Button
+        android:id="@+id/btnFirNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+
+        />
+
+    <Button
+        android:id="@+id/btnSecNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score"
+        android:editable="false"
+        android:clickable="false"
+
+        android:layout_gravity="center"
+        android:layout_margin="10dp"/>
+
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:editable="false"
+        android:layout_margin="10dp"
+
+        android:layout_gravity="center"
+        />
+
+
+
+
+    <Button
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restart"
+        android:editable="false"
+        android:id="@+id/btnRestart"
+        android:layout_gravity="center"
+        android:textSize="13dp"/>
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/tvWoL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" "
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvResult"
+        android:text=" "
+
+        android:layout_gravity="center" />
+
+
+
+
+</LinearLayout>
+
