@@ -35,12 +35,6 @@ public class MainActivity extends AppCompatActivity {
         randomGen();
         assignValue();
 
-        //check if random values match or not
-        if (random_int1 == random_int2){
-            randomGen();
-            assignValue();
-
-        }
 
         tvScore.setText(Integer.toString(score));
 
@@ -178,6 +172,7 @@ public class MainActivity extends AppCompatActivity {
 
         else if (score ==-10){
             tvFinal.setText("Sorry, You Lost!!!");
+            tvResult.setText("Win= "+points_won+" Loss= "+points_loss+" Total Clicked= "+total_clicked);
             cancel();
         }
     }
